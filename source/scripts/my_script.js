@@ -3,24 +3,18 @@ called when body loaded
 */
 
 function init(){
-        document.getElementById("test").innerHTML ="init says HI!";
+    setInterval(timer, 1000)
 }
 
-function test_button(){
-
-  /*  document.getElementById("test").style.backgroundColor = "red";
-    document.getElementById("test").innerHTML ="button cliked";
-    alert("cliked");*/
-    setInterval(timer, seconds)
-
-}
-
+a=0
 /*
 Executes a function repeats the execution of the function continuously
 */
 function timer(){
-    i++
-    console.log
+    a++
+    console.log(a)
+    document.getElementById("carre").style.Left = "a";
 }
+
 
 
